@@ -1,0 +1,24 @@
+citHeader("To cite the dataset from package 'yeastGeneLevel' in publications use:")
+desc <- packageDescription("yeastGeneLevel")
+year <- 2011
+vers <- paste("R package version", desc$Version)
+title <- "GC-Content Normalization for RNA-Seq data" 
+journal <- "BMC Bioinformatics"
+volume <- "12"
+number <- 480
+citEntry(entry="article",
+         title = title,
+         author = personList(as.person("Davide Risso"),
+         as.person("Katja Schwartz"),
+	 as.person("Gavin Sherlock"),
+         as.person("Sandrine Dudoit")),
+         year = year,
+	 journal = journal,
+         volume = volume,
+         number = number,
+         note = vers,
+	 textVersion = 
+           c(paste("Davide Risso, Katja Schwartz, Gavin Sherlock, Sandrine Dudoit",
+                   " (", year, "). ", title, ".", sep = ""),
+             paste(journal, ", ", volume, "(", number, ").", sep = "")
+	 ))

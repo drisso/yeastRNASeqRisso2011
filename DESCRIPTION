@@ -1,0 +1,11 @@
+Package: yeastRNASeqRisso2011
+Title: Yeast RNA-Seq Experimental Data from Risso et al. 2011
+Version: 0.0.2
+Author: Davide Risso
+Description: Gene-level counts of RNA-Seq data from a yeast transcriptome experiment.
+biocViews: ExperimentData, Yeast, RNAseqData
+Maintainer: Davide Risso <risso.davide@gmail.com>
+License: GPL
+Depends: R (>= 2.4)
+Suggests: Biobase, ShortRead, IRanges
+Packaged: 2012-04-12 21:31:45 UTC; davide

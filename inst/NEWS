@@ -1,0 +1,3 @@
+Changes in Version 0.0.2
+------------------------
+* Changed class of geneInfo to data.frame and class of geneLevelCounts to matrix for compatibility with the SeqExpressionSet class
